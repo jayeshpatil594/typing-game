@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Speed Typing</title>
+    </head>
+
+    <body>
+    
+    <div id="settings" class="settings">
+        <form id="settings-form">
+            <div>
+                <label>Difficulty</label>
+                <select id="difficulty">
+                    <option value="school">School</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>     
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>👨‍💻Let's Go</h2>
+        <small>Type the following</small>
+        <h1 id="word"></h1>
+        <input type="text" id="text" autocomplete="off" placeholder="Type the word here..."/>
+
+        <p class="time-container">Time left: <span id="time">10s</span></p>
+        <p class="score-container">Score: <span id="score">0</span></p>
+        <div id="end-game-container" class="end-game-container"></div>
+    </div>
+
+     <script type="text/javascript" src="script.js"></script>
+     
+</body>
+</html>
